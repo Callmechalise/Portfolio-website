@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff; /* White text color */
+    background-color: #1a1a1a; /* Dark background color */
+}
+
+/* Header styling */
+header {
+    background: #333; /* Darker header background */
+    color: #b74b4b; /* Red text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #2e2e2e; /* Slightly lighter dark background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact info section */
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info h2 {
+    margin-bottom: 1rem;
+    color: #b74b4b; /* Red color for headings */
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-item {
+    flex: 1;
+    min-width: 200px;
+}
+
+.contact-item h3 {
+    margin-bottom: 0.5rem;
+    color: #b74b4b; /* Red color for contact item headings */
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item a {
+    color: #fff; /* White text color for links */
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form styling */
+.contact-form {
+    margin-top: 2rem;
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+    color: #b74b4b; /* Red color for form headings */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff; /* White text color for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #444; /* Dark border for input fields */
+    border-radius: 4px;
+    background: #333; /* Dark background for input fields */
+    color: #fff; /* White text color for input fields */
+}
+
+.contact-form button {
+    background: #b74b4b; /* Red background for button */
+    color: #fff; /* White text color for button */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #a13d3d; /* Darker red on hover */
+}
+
+/* Footer styling */
+footer {
+    background: #333; /* Dark footer background */
+    color: #b74b4b; /* Red text color */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}

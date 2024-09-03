@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+}
+
+/* Header styling */
+header {
+    background: #000; /* Black background */
+    color: #b74b4b; /* Red text color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #1a1a1a; /* Dark grey background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Education section */
+.education {
+    margin-bottom: 2rem;
+}
+
+.education h2 {
+    margin-bottom: 1rem;
+    color: #b74b4b; /* Red color for headings */
+    text-align: center;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background: #333; /* Darker grey background */
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    font-size: 2rem;
+    color: #b74b4b; /* Red color for icons */
+    margin-right: 1rem;
+}
+
+.details h3 {
+    margin-bottom: 0.5rem;
+    color: #b74b4b; /* Red color for item titles */
+}
+
+.details p {
+    margin: 0;
+    color: #ccc; /* Light grey for descriptions */
+}
+
+/* Footer styling */
+footer {
+    background: #000; /* Black background */
+    color: #b74b4b; /* Red text color */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
